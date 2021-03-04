@@ -1,0 +1,190 @@
+/*Zerando valores dos elementos */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;	border: 0;font-size: 100%;font: inherit;vertical-align: baseline;} article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} body {line-height: 1;font-family:Arial,Helvetica,sans-serif;font-size:14px;} ol, ul {list-style: none;} blockquote, q {quotes: none;} blockquote:before, blockquote:after,q:before, q:after {content: '';	content: none;} table {border-collapse: collapse;border-spacing: 0;}
+/*Zerando valores dos elementos */
+
+h1{
+	font-weight:bold;
+	font-size:20px;	
+	margin-bottom: 15px;
+}
+img{margin-top:10px; margin-bottom:10px;}
+.legenda{
+	font-style:italic; 
+	font-size:12px;
+}
+
+p{margin-bottom:10px;}
+
+pre {
+	background: #FEFFAF;
+	color: #000;
+	line-height: 18px;
+	margin-bottom: 18px;
+	padding: 1.5em;
+	margin-bottom:20px;
+	margin-top:20px;
+	border: #000 1px dotted;
+}
+
+#geral{
+	width:1260px;
+	--width:760px;
+	margin:0 auto;
+	text-align:left;/* "remédio" para o hack do IE */
+	--background-color:red;
+}
+	#cabecalho{}
+	
+		#logotipo{
+			padding:20px;
+		}
+	
+		#menu{
+			background-color: #9b0000;
+			color:#FFFFFF;
+			padding: 15px;
+		}
+		
+		#menu li{
+			display:inline;
+			margin-right: 35px;
+		}
+	
+	#corpo{margin-top: 20px;}
+		
+		#destaque{}
+		
+			#destaques_top{}
+			
+				#destaque_top_esquerda{
+					width:370px;
+					float:left;
+				}
+				
+				#destaque_top_direita{
+					width:370px;
+					float:left;
+					margin-left:10px;
+				}
+				
+					#destuqe_top_direita_especial{
+						margin-top: 10px;
+					}
+					
+						.destaque_top_direita_dividido{
+							width:177px;
+							float:left;
+							padding-left:4px;
+							padding-right:4px;
+						}
+					
+
+			#destaques_bottom{
+				color:#FFF;
+				clear:both;
+			}
+			
+				#destaque_bottom_esquerda{
+					width:470px;
+					background-color:#9b0000;
+					padding:40px;
+					float:left;
+				}
+				
+				#destaque_bottom_direita{
+					width:170px;
+					background-color:#406db7;
+					padding:10px;
+					float:left;
+					margin-left:20px;
+					margin-bottom:20px;
+					text-align:center;
+				}
+	
+	
+	#rodape{
+		background-color:#6c6c6c;
+		color:#FFF;
+		clear:both;
+		float:left;
+	}
+	
+		.rodape_navegacao_itens{
+			width:149px;
+			height:310px;
+			border-right-width:1px;
+			border-right-color:black;
+			border-right-style:solid;
+			padding:20px;
+			float:left;
+		}
+		
+		.rodape_navegacao_itens li{
+			list-style:disc;
+			font-size:12px;
+			margin-bottom:10px;
+		}
+	
+#direitos_reservados{
+	width:740px;
+	text-align:right;
+	font-size:10px;
+	clear:both;
+	padding:10px;
+}
+
+a{
+	color: #FFF;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#FFDD00;
+	text-decoration:none;
+}
+
+form {
+	width:500px;
+	margin:0px;
+}
+
+form fieldset label {
+	color:#000;
+	font:14px arial, tahoma, sans-serif;
+	display:block; 
+	width:240px;
+	float:left;
+	margin-bottom:10px;
+}
+
+form fieldset label.ck {
+	width:470px;
+}
+
+form fieldset label.msg {
+	width:470px;
+}
+
+form fieldset label.msg textarea {
+	width:455px; height:200px;
+	font:13px arial, tahoma, sans-serif;
+	padding:3px; border:1px solid #999;
+}
+
+
+form fieldset label input.texto {
+	width:220px;
+	border:1px solid #999;
+	padding:3px;
+}
+
+form fieldset input.botao {
+	float:right;
+	margin:20px 40px;
+	border:1px solid #FFF;
+	background:#999;
+	color:#FFF;
+	padding:5px;
+	font:13px verdana, arial, tahoma, sans-serif;
+	cursor:pointer;
+}
